@@ -7,11 +7,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #00f;
+    line-height: 1.5;
 }
 
-.traco {
+.text-subtitulo .traco {
     height: 2px;
     width: 80px;
+    margin: auto;
     background-color: #000;
 }
 
@@ -60,7 +62,15 @@ nav {
 .banner {
     margin-top: 200px;
 }
+.sobre {
+    padding: 100px 0px;
+}
 
 #servico {
-    
+    background-image: url(/assets/img/planoDeFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 0px;
 }
