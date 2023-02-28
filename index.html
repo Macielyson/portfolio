@@ -16,7 +16,7 @@
 <body>
     <!-- header navbar-expand-lg navbar-dark aria-expanded="false"
     -->
-    <header class="header">
+    <header id="home" class="header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">MACIELYSON</a>
@@ -26,19 +26,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</span></a>
+                            <a class="nav-link" href="#home">Home</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Servico</a>
+                            <a class="nav-link" href="#servico">Servico</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +57,7 @@
     </header>
 
     <!-- section sobre -->
-    <section class="sobre">
+    <section id="sobre" class="sobre">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-5">
@@ -140,7 +140,7 @@
         </div>
     </section>
     <!-- section portfolio -->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="subtitulos">
                 <h2>Portfolio</h2>
@@ -152,7 +152,7 @@
         </div>
     </section>
     <!-- section contato-->
-    <section class="contato">
+    <section id="contato" class="contato">
         <div class="container">
             <div class="subtitulos">
                 <h2>Contato</h2>
@@ -161,6 +161,34 @@
                     desenvolvemos
                 </h5>
             </div>
+
+            <div class="row">
+                <div class="col col-lg-4 col-sm border-right border-secondary">
+                    <div class="contato-text">
+                        <h3>Contato Detalhes</h3>
+                    </div>
+                    <div class="contato-conteudo pl-5 pt-4">
+                        <p>Rua Anizio Vieira chaves - Centro - Nº34</p>
+                        <p>99 98265-8738</p>
+                        <p>macielyson.s@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col col-sm">
+                    <div class="contato-text">
+                        <h3>Contato Mensagem</h3>
+                    </div>
+                    <div class="contato-conteudo">
+                        <input type="text" name="name" id="name" placeholder="Seu nome">
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                        <br />
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                            placeholder="Sua mensagem"></textarea>
+                        <br />
+                        <button class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
 
