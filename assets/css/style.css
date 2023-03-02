@@ -123,6 +123,27 @@ textarea {
     height: 100px;
 }
 
+/*section portifolio*/
+.categories ul li a{
+   border: 1px solid #d4d4d4;
+    margin: 0px 5px;
+    color: #999;
+}
+.categories .action, .categories li a:hover {
+    background-color: #fd7120;
+    color: #fff;
+}
+
+.projeto {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: #000;
+}
+
+
+
+
 /*footer*/
 footer {
     display: flex;
