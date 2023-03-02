@@ -6,12 +6,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #000;
+    color:#000;
     line-height: 20px;
 }
 
 h1,
 h2 {
+    
     text-transform: uppercase;
 }
 
@@ -136,9 +137,10 @@ textarea {
 
 .projeto {
     height: 200px;
-    width: 200px;
+    width: 250px;
     margin: 10px;
     background-color: #000;
+   
 }
 
 
